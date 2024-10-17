@@ -16,7 +16,18 @@ public class Idade {
         // resultado da idade
 
         int resul = valorAno - valorNas;
-        System.out.println("a sua idade em "+valorAno+" e "+resul);
+
+        // estrutura condicional composta maior/menor
+
+        if (resul>=18) {
+            System.out.println("Voce tem "+resul+" anos, ja e de Maior");
+        }else{
+            System.out.println("Voce tem "+resul+" anos, ainda e de Menor");
+        }
+
+
+
+
 
 
 
